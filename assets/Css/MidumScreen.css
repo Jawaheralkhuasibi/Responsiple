@@ -1,0 +1,33 @@
+
+@media (min-width: 600px) and (max-width:900px) {
+    
+    .cardbox{
+            grid-template-columns:50% 50%;
+            gap: 20px;
+        }
+
+    header{
+        flex-direction: column; 
+        justify-content: space-between; 
+    }
+
+    .box1{
+        justify-content: space-between;
+        margin:5px 100px 50px 100px;
+    }
+
+    .postImage{
+        height:300px;
+    }
+
+
+
+
+   
+
+
+
+
+
+
+}

@@ -1,0 +1,84 @@
+@import url("./header.css");
+@import url("./home.css");
+@import url("./post.css");
+@import url("./footer.css");
+@import url("./BigScreen.css");
+@import url("./MidumScreen.css");
+
+
+
+@media (max-width:600px) {
+    .subscriber,.search {
+        display: none;
+    }
+
+    .box1{
+        justify-content: center;
+    }
+    .cardbox{
+        grid-template-columns: 100% ;
+        gap: 10px;
+    }
+    .postImage{
+        height:200px;
+    }
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+  
+}
+
+/* color: #575151; */
+/* color: #feb062; */
+
+body{
+    overflow: hidden;                /* Hide scrollbar */
+    background-color: #e7b3b3;
+    overflow-y: scroll; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;             /* Add the ability to scroll */
+
+}
+body::-webkit-scrollbar {            /* Hide scrollbar for Chrome, Safari and Opera*/
+    display: none;
+} 
+
+
+/* Anything smaller than first breakpoint 600px */ 
+.container {  
+    height: 100vh;
+    width: 100%;
+    padding: 5%;
+    align-items: stretch;
+    text-align: center;
+    display:grid;
+    grid-template-columns:repeat(auto,100px);    
+    grid-template-rows: repeat(auto-fit,minmax(50px,1fr,50px));
+    grid-template-areas:
+    'header '
+    'main '
+    'footer';
+
+}
+
+
+hr{
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #e7b3b3, #000, #e7b3b3);
+}
+
+
+main{
+padding: 1px;
+margin-top: 10%;
+
+}
+
+
+

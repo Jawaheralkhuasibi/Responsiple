@@ -1,0 +1,41 @@
+header{
+
+    grid-area: header;
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch;
+    color: #3f3b3b;
+}
+
+.box1{
+    display: flex;
+    align-items: center;
+    margin:5px 100px 30px 100px;
+}
+
+
+
+.title{
+    font-family: 'Times New Roman', Times, serif;
+}
+header a{
+    color: #575151;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #3f3b3b;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+
+}
+
+.box2 a{
+    padding: 5px;
+    margin: 5px;
+}

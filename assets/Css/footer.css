@@ -1,0 +1,14 @@
+/* -------footer--------- */
+
+
+footer{
+    padding: 10px;
+    grid-area: footer; 
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #575151;
+  }
+  
+  
+  
